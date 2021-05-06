@@ -1,7 +1,7 @@
 $('#date').on('change', function(){
     
     let date = $('#date').val()
-    const url = `https://api.nasa.gov/planetary/apod?api_key=mSQt4SNdemJT2Mwa7QIXhSff1RxejkQVumrUus8w&date=${date}`;
+    const url = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${date}`;
 
     $.ajax({
 
