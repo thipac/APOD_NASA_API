@@ -55,7 +55,7 @@ body {
 
 .choice{
 
-  height: calc(80vh - 7.75rem);
+  height: calc(70vh - 6.75rem);
   display: flex;
   position: absolute;
   margin-left: 100px;
