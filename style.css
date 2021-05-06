@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 1000px;
+  background-color: #000;
+ 
+} 
+
+#header{
+
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1237px-NASA_logo.svg.png");
+  background-repeat: no-repeat;
+  background-size: 5%;
+  background-position: 1% 50%;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  position: fixed;
+  background-color:  rgba(0, 0, 0, 60%);
+  height: 6.75rem;
+  width: 100%;
+  color:white;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1ch; 
+  z-index: 1;
+  
+}
+
+#header h1 {
+  margin-left: 100px;
+}
+
+.logo {
+  font-size: 2.375rem;
+  font-weight: 700;
+  line-height: 1ch;   
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.logo__subtitle{
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #033a92; 
+}
+
+.choice{
+
+  height: calc(80vh - 7.75rem);
+  display: flex;
+  position: absolute;
+  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+label{
+  font-size:20px;
+  color:white;
+  font-weight: 300;
+  border: 1px solid white;
+  background-color: rgba(36, 40, 66, 60%);
+  padding: 2px;
+  text-transform: uppercase;
+  
+
+}
+
+#date{
+  width: 150px;
+  font-size: 16px;
+  background-color:black;
+  color: white;
+  margin: 20px;
+  text-align: center;
+  border: 1px solid white;
+  font-weight: 300; 
+  text-transform: uppercase;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(1);
+}
+
+.conteudo{
+  
+  display: flex;
+  position: absolute;  
+  align-items: center;
+  justify-content: center;
+  margin-top: 260px;
+ 
+  background-color: rgba(36, 40, 66, 0.7);
+  width: 100%;
+  height: 570px;
+  
+
+}
+
+.conteudo__texto {
+  width: max(20vw, 400px) ;
+  height: max(20vw, 350px);
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  margin: 50px;
+  
+}
+
+.invi{
+  display:none;
+}
+
+#title{
+  padding-bottom:30px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 0.2rem;
+}
+
+#texto{
+  font-size: max(1vh, 16px);
+
+}
+
+.imagem{
+
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  
+  width: max(20vw, 400px) ;
+  height: max(20vw, 350px)  ;
+  border: 1px solid white;
+  border-radius: 5px;
+  animation:normal 1.5s;
+  
+}
+
+footer{
+  border-top: 1px solid #333;
+  text-transform: uppercase;
+  bottom: 0;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 80%);
+  color: white;
+  font-size: 10px;
+  text-align: center;
+
+}
+
+footer p {
+  margin: 30px;
+  align-items: center;
+}
+
+
