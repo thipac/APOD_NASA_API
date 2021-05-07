@@ -1,3 +1,5 @@
+
+
 $('#date').on('change', function(){
     
     let date = $('#date').val()
@@ -37,3 +39,10 @@ $('#date').on('change', function(){
     })
 
 })
+
+const dataAtual =  moment().format(`YYYY-MM-DD`);
+     $('#date').val(dataAtual)
+
+
+
+

@@ -25,11 +25,11 @@ body {
   align-items: center;
   position: fixed;
   background-color:  rgba(0, 0, 0, 60%);
-  height: 6.75rem;
+  height: 5.75rem;
   width: 100%;
   color:white;
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: max(0.9vw, 32px);
   line-height: 1ch; 
   z-index: 1;
   
@@ -55,7 +55,7 @@ body {
 
 .choice{
 
-  height: calc(70vh - 6.75rem);
+  height: calc(65vh - 5.75rem);
   display: flex;
   position: absolute;
   margin-left: 100px;
@@ -111,8 +111,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .conteudo__texto {
-  width: max(20vw, 400px) ;
-  height: max(20vw, 350px);
+  width: max(10vw, 400px) ;
+  height: max(10vw, 350px);
   padding: 20px;
   color: white;
   border-radius: 5px;
@@ -143,8 +143,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   flex-direction: row;
   justify-self: center;
   
-  width: max(20vw, 400px) ;
-  height: max(20vw, 350px)  ;
+  width: max(10vw, 400px) ;
+  height: max(10vw, 350px)  ;
   border: 1px solid white;
   border-radius: 5px;
   animation:normal 1.5s;
@@ -162,12 +162,66 @@ footer{
   color: white;
   font-size: 10px;
   text-align: center;
-
+  
 }
 
 footer p {
   margin: 30px;
   align-items: center;
+  
+  
 }
+
+
+
+@media screen and (max-width: 900px){
+
+  #header {
+    margin-top: 2px;
+    background-image:none;
+    margin-left: 2px;
+    justify-content: left;
+  }
+
+  #header span{
+    display: none;
+  }
+
+  .choice {
+    margin-top: 100px;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .conteudo{
+      margin-top: autoJ;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: none;
+
+  }
+  .conteudo__texto{
+      width: 60%;
+      margin-bottom: 15px;
+      margin-top: 0px;
+     
+      
+  }
+
+  #conteudo__nasa{
+      width: 60%;
+      margin-bottom:100px;
+  }
+
+  .imagem{
+      margin-top: 900px;
+      width: 300px;
+      height: 300px;
+     
+  }     
+}
+
+
 
 
